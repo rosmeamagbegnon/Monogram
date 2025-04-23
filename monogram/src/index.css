@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.background-image1 {
+    background-image: url('./src/assets/img34.jpeg'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Pour couvrir toute la div */
+    background-position: center; /* Pour centrer l'image */
+    height: 660px; /* Hauteur de la div */
+    width: 100%; /* Largeur de la div */
+    color: white; /* Couleur du texte */
+    display: flex; /* Pour centrer le contenu */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+.background-transparent {
+    background-color: rgba(0, 0, 0, 0.5); /* Noir avec 50% de transparence */
+    height: 660px; /* Hauteur de la div */
+    width: 100%; /* Largeur de la div */
+    display: flex; /* Pour centrer le contenu */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+.background-image2 {
+    background-image: url('./src/assets/img35.webp'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Pour couvrir toute la div */
+    background-position: center; /* Pour centrer l'image */
+    height: 550px; /* Hauteur de la div */
+    width: 100%; /* Largeur de la div */
+    
+    
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+.hover-image {
+    transition: opacity 0.5s ease;
+}
+  
+.hover-image:hover {
+    opacity: 0;
+}
+  
