@@ -5,7 +5,7 @@
     background-image: url('./src/assets/img34.jpeg'); /* Remplacez par le chemin de votre image */
     background-size: cover; /* Pour couvrir toute la div */
     background-position: center; /* Pour centrer l'image */
-    height: 660px; /* Hauteur de la div */
+    height: 675px; /* Hauteur de la div */
     width: 100%; /* Largeur de la div */
     color: white; /* Couleur du texte */
     display: flex; /* Pour centrer le contenu */
@@ -13,8 +13,8 @@
     align-items: center; /* Centrer verticalement */
 }
 .background-transparent {
-    background-color: rgba(0, 0, 0, 0.5); /* Noir avec 50% de transparence */
-    height: 660px; /* Hauteur de la div */
+    background-color: rgba(0, 0, 0, 0.6); /* Noir avec 50% de transparence */
+    height: 675px; /* Hauteur de la div */
     width: 100%; /* Largeur de la div */
     display: flex; /* Pour centrer le contenu */
     justify-content: center; /* Centrer horizontalement */
@@ -24,18 +24,148 @@
     background-image: url('./src/assets/img35.webp'); /* Remplacez par le chemin de votre image */
     background-size: cover; /* Pour couvrir toute la div */
     background-position: center; /* Pour centrer l'image */
-    height: 550px; /* Hauteur de la div */
+    height: 500px; /* Hauteur de la div */
+ 
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    
+}
+/* Rollover image styles */
+.figure {
+    position: relative;
+}
+
+.figure img.Sirv.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.2s;
+    
+}
+
+.figure:hover img.Sirv.image-hover {
+    opacity: 1;
+}
+.background-image3 {
+    background-image: url('./src/assets/img46.webp'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Pour couvrir toute la div */
+    background-position: center; /* Pour centrer l'image */
+    height: 450px; /* Hauteur de la div */
     width: 100%; /* Largeur de la div */
-    
-    
     justify-content: center; /* Centrer horizontalement */
     align-items: center; /* Centrer verticalement */
 }
-.hover-image {
-    transition: opacity 0.5s ease;
+.background-image4 {
+    background-image: url('./src/assets/img48.webp'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Pour couvrir toute la div */
+    background-position: center; /* Pour centrer l'image */
+    height: 500px; /* Hauteur de la div */
+    width: 100%; /* Largeur de la div */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
 }
-  
-.hover-image:hover {
-    opacity: 0;
+.transparent {
+    background-color: rgba(0, 0, 0, 0.6); /* Noir avec 50% de transparence */
+    height: 500px; /* Hauteur de la div */
+    width: 100%; /* Largeur de la div */
+    display: flex; /* Pour centrer le contenu */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
 }
-  
+.background-image5 {
+    background-image: url('./src/assets/img22.png'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Pour couvrir toute la div */
+    background-position: center; /* Pour centrer l'image */
+    height: 450px; /* Hauteur de la div */
+    width: 500px; /* Largeur de la div */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+.transparent2 {
+    background-color: rgba(0, 0, 0, 0.6); /* Noir avec 50% de transparence */
+    height: 450px; /* Hauteur de la div */
+    width: 500px; /* Largeur de la div */
+    display: flex; /* Pour centrer le contenu */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+
+.background-image6 {
+    background-image: url('./src/assets/img50.jpeg'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Pour couvrir toute la div */
+    background-position: center; /* Pour centrer l'image */
+    height: 450px; /* Hauteur de la div */
+    width: 500px; /* Largeur de la div */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+.background-image7 {
+    background-image: url('./src/assets/img49.webp'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Pour couvrir toute la div */
+    background-position: center; /* Pour centrer l'image */
+    height: 450px; /* Hauteur de la div */
+    width: 500px; /* Largeur de la div */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+.background-image8 {
+    background-image: url('./src/assets/img47.jpeg'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Pour couvrir toute la div */
+    background-position: center; /* Pour centrer l'image */
+    height: 450px; /* Hauteur de la div */
+    width: 500px; /* Largeur de la div */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+.background-image9 {
+    background-image: url('./src/assets/img51.webp'); /* Remplacez par le chemin de votre image */
+    background-size: cover; /* Pour couvrir toute la div */
+    background-position: center; /* Pour centrer l'image */
+    height: 450px; /* Hauteur de la div */
+    width: 500px; /* Largeur de la div */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+.uni {
+ 
+  height: 360px; /* Ajustez la hauteur selon vos besoins */
+  width: 370px;
+  object-fit: cover; /* Cela permet de conserver le ratio d'aspect */
+}
+.back{
+    background-image: url('./src/assets/dark.jpeg');
+    height: 705px; /* Hauteur de la div */
+    width:100% ; /* Largeur de la div */
+    display: flex; /* Pour centrer le contenu */
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+.bord {
+    border-right: 3px solid #8796a4; /* Bordure de 3px, solide et de couleur noire uniquement à droite */
+}
+.svg{
+    fill: #efc2b3;
+}
+button {
+    transition: color 0.3s ease; /* Pour une transition douce */
+}
+
+button:hover .triangle {
+    fill: #bfc2d0; /* Couleur au survol du SVG */
+}
+/* Styles pour le select */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E ");
+  background-repeat: no-repeat;
+  background-position: right 0.2rem center;
+  background-size: 1.5em;
+  padding-right: 1.2rem;
+}
+
